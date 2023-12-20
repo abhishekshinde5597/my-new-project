@@ -1,0 +1,648 @@
+
+/* .circular-slider {
+    display: none;
+} */
+
+
+
+.single_job_listing .meta{
+    padding-bottom: 69px;
+}
+
+
+.circle-details.noCount {
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+}
+
+.custom_sliderblock .container {
+    background: transparent;
+    width: 100%;
+    max-width: inherit;
+}
+
+.custom_sliderblock .custom_slide { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: transform ease-in 0.25s;
+}
+
+.custom_sliderblock .c_details {
+    display: none;
+    padding-left: 4px;
+}
+
+.custom_slider_inner_main {
+    width: 605px;
+    height: 605px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.custom_sliderblock .custom_slider_inner {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border: 2px solid #EEF2F4;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.custom_sliderblock .item_dot {
+    height: 40px;
+    width: 40px;
+    position: absolute; 
+    z-index: 2;
+}
+ 
+.custom_sliderblock .item_dot:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #B6BCD2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    display: block;
+    transition: all ease-in 0.25s;
+}
+
+.custom_sliderblock .item_dot:before {
+    content: '';
+    height: 36px;
+    width: 36px;
+    border: 7px solid #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: all ease-in 0.25s;
+    z-index: 2;
+}
+
+.custom_sliderblock .custom_slide.active .item_dot {
+    transform: scale(1.75);
+}
+
+.custom_sliderblock .custom_slide.active .item_dot:after {
+    background: #2C3F89;
+}
+
+.custom_sliderblock .middle_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+}
+
+.custom_slide .c_year {
+    font-size: 40px;
+    line-height: 49px;
+    color: rgba(0,0,0,0.3);   
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.custom_slide.active .c_year {
+    font-size: 64px;
+    line-height: 1.2;
+    color: rgba(0,0,0, 1); 
+}
+
+.custom_yeardetails {
+    position: absolute;
+    right: 100%;
+    padding: 0 10px;
+    width: auto;
+    top: 0px; 
+}
+
+
+.custom_sliderblock .custom_slide.active .custom_yeardetails {
+    top: -16px;
+    padding-left: 20px;
+    left: 100%;
+    right: inherit;
+    width: 250px;
+    transform: scale(0.7) translate(-50px, -10px);
+}
+
+.custom_sliderblock .custom_slide.active .c_details {
+    display: block;  
+}
+
+
+ 
+
+/* .custom_sliderblock .custom_slide.active .item_dot {
+    top: 260px;
+    left: 100%;
+    margin-left: -36px;
+} */
+
+.custom_sliderblock .custom_slide11 .item_dot {
+    top: 266px;
+    left: -20px;
+}
+
+.custom_sliderblock .custom_slide10 .item_dot {
+    top: 353px;
+    left: -12px;
+}
+
+.custom_sliderblock .custom_slide9 .item_dot {
+    top: 436px;
+    left: 20px;
+}
+ 
+.custom_sliderblock .custom_slide8 .item_dot {
+    bottom: 50px;
+    left: 82px;
+}
+
+.custom_sliderblock .custom_slide7 .item_dot {
+    bottom: -3px;
+    left: 175px;
+}
+
+.custom_sliderblock .custom_slide6 .item_dot {
+    bottom: -22px;
+    left: 270px;
+}
+
+.custom_sliderblock .custom_slide5 .item_dot {
+    bottom: -10px;
+    right: 198px;
+}
+
+.custom_sliderblock .custom_slide4 .item_dot {
+    bottom: 43px;
+    right: 95px;
+}
+
+.custom_sliderblock .custom_slide3 .item_dot {
+    bottom: 112px;
+    right: 30px;
+}
+
+.custom_sliderblock .gap15 .item_dot {
+    top: 280px;
+    right: -20px;
+}
+
+.custom_sliderblock .gap15 .custom_yeardetails {
+    top: -10px;
+    left: 100%;
+}
+
+ 
+.custom_sliderblock .custom_slide6 .custom_yeardetails {
+    top: 100%;
+    right: 0;
+}
+
+.custom_sliderblock .custom_slide5 .custom_yeardetails  {
+    top: 100%;
+    right: -40px;
+}
+ 
+.custom_sliderblock .custom_slide4 .custom_yeardetails,
+.custom_sliderblock .custom_slide3 .custom_yeardetails {
+    top: 100%;
+    right: -60px;
+}
+
+.custom_slide.gap0.started .item_dot .custom_yeardetails {
+    right: inherit;
+    left: 100%;
+    top: -20px;
+}
+
+.custom_slide.gap0.started .item_dot {
+    top: -13px;
+    left: 340px;
+}
+
+
+
+
+
+.circle-details .year-details .year {
+    font-size: 32px;  
+    line-height: 40px;
+}
+
+.circle-details .year-details {
+    left: inherit;
+    right: 100%;
+    padding: 4px 12px; 
+    margin-right: 0;
+    top: -4px;
+}
+
+.circle-details .year-details .details {
+    margin-left: 38px;
+    max-width: 275px;
+    background-color: #fff;
+}
+
+
+.circle-details.position-top-right .year-details {
+    left: 35px;
+    right: inherit;
+    top: -12px;
+}
+.circle-details.position-top-left .year-details {
+    bottom: 100%;
+    top: inherit;
+    right: 38px;
+    margin-bottom: -27px;
+}
+
+.circle-details.position-top .year-details {
+    bottom: 100%;
+    top: inherit;
+    right: -40px;
+}
+
+.circle-details.position-middle-left .year-details {
+    bottom: inherit;
+    top: -4px;
+    right: 100%;
+}
+
+.circle-details.position-bottom-right .year-details {
+    top: 34px;
+    left: 18px;
+}
+
+.circle-details.position-bottom .year-details {
+    top: 100%;
+    left: -54px;
+    margin-top: 0;
+}
+
+ 
+
+.circle-details.active .year-details {
+    top: -10px !important; 
+    left: 45px !important;
+}
+ 
+
+.circle-details .year-details .details {
+    line-height: 22px;
+    font-size: 13px;
+}
+
+
+.circular-slider .container {
+    background-size: 450px;
+}
+
+
+.custom_sliderblock {
+    display: none;
+}
+
+
+.apx-footer-main > div{
+    position: relative;
+}
+
+
+.circular-slider .slider-buttons {
+    bottom: 40px;
+}
+#scroll-button {
+    display: inline-block;
+    background: #fff;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    bottom: 42px;
+    /* right: 50px; */
+    right: calc((100% - 1114px)/2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    cursor: pointer;
+}
+#scroll-button .elementor-widget-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scroll-button img{
+    height: 9px;
+    width: 9px;
+}
+
+#scroll-button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .circular-slider .container {
+        background-size: 420px;
+        margin: 0 0 0 70px;
+    }
+
+    .circle-details .year-details .details {
+        margin-left: 27px;
+        background-color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .circular-slider .container {
+        background-size: 400px;
+    }
+    #scroll-button {
+        bottom: 20px;
+        right: 10px;
+    }
+
+    .circle-details .year-details .details {
+        line-height: 21px;
+        max-width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .circle-details .year-details {
+        padding: 4px 10px;
+        top: -12px;
+    }
+    
+    .circle-details.position-bottom-right .year-details {
+        top: 8px;
+        left: inherit;
+        right: 100%;
+        margin: 0 -5px 0 0;
+    }
+
+    .circle-details.position-top-right .year-details {
+        left: 100%;
+        right: inherit;
+        top: 15px;
+        margin-left: -6px;
+    }
+
+    .circle-details.position-middle-left .year-details {
+        bottom: 100%;
+        top: inherit;
+        right: -56px;
+        margin-bottom: 2px;
+    }
+
+    .circle-details.position-bottom .year-details {
+        top: 0;
+        left: inherit;
+        margin-top: 0;
+        right: 100%;
+    }
+
+    .circle-details.position-top .year-details {
+        bottom: inherit;
+        top: 0;
+        right: inherit;
+        left: 100%;
+    }
+
+    .circle-details.position-top-left .year-details {
+        bottom: inherit;
+        top: inherit;
+        right: inherit;
+        left: 100%;
+    }
+    
+    .circular-slider .slider-buttons {
+        bottom: -230px;
+    }
+
+    .circle-details.active .year-details {
+        top: 100% !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+        margin: 0 !important;
+    }
+
+    .circular-slider-shortcode {
+        overflow: hidden;
+    }
+
+    .circular-slider .inner-circle {
+        width: 18px;
+        height: 18px;
+    }
+
+    .circular-slider-shortcode .circular-slider {
+        background-size: 340px;
+    }
+
+    .circle-details .year-details .year {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+
+    .circle-details.active .year-details .year  {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+
+    .circular-slider .container {
+        margin: 0;
+    }
+
+    .circle-details .year-details .details {
+        margin-left: 0;
+        background-color: #fff;
+    }
+
+    .circle-details .year-details .details {
+        max-width: 270px;
+    }
+
+    .circle-details.active .year-details {
+        top: 100% !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+        margin: 0 !important;
+        overflow: auto;
+        max-height: 170px;
+    }
+
+    .circle-details {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .inner-circle {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    #scroll-button {
+
+        bottom: 18px;
+
+    }
+
+    .circular-slider .container {
+        background-size: 420px;
+        margin: 0;
+    }
+
+    .circle-details .year-details .details {
+        margin-left: 0;
+        background-color: #fff;
+    }
+
+    .circle-details.active .year-details {
+        top: 100% !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+        margin: 0 !important;
+        overflow: auto;
+        max-height: 125px;
+    }
+
+    .circle-details .year-details .details {
+        max-width: 180px;
+    }
+
+    .circular-slider .slider-buttons {
+        bottom: -185px;
+    }
+    
+    .circular-slider-custom {
+        padding: 0;
+    }
+
+    .circular-slider-custom .container svg {
+        height: 260px;
+        width: 260px;
+    }
+
+    .circular-slider-shortcode .circular-slider {
+        max-width: 220px;
+        background-size: 200px;
+        margin: 0 auto;
+        height: 350px;
+    }
+
+    .circular-slider .container {
+        height: 350px;
+    }
+
+    .circular-slider .wrapper {
+        position: relative;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .circle-details .year-details .year {
+        font-size: 16px;
+        line-height: 1.1;
+        margin-bottom: 5px;
+    }
+
+    .circle-details.position-middle-left .year-details {    
+        right: -42px;
+        margin-bottom: -2px;
+    }
+
+    .circle-details.position-middle-left .year-details .year {
+        margin-bottom: 0;
+    }
+
+    .circle-details .year-details {
+        padding: 4px 6px; 
+    }
+
+    .circle-details.position-bottom-right .year-details {
+        margin: 0;
+    }
+
+    .circle-details .year-details .details {
+        font-size: 10px; 
+        line-height: 12px;
+    }
+
+   
+    .circle-details.active .year-details .year {
+        font-size: 16px;
+    } 
+
+    /* .circular-slider-custom .circular-slider-shortcode .elementor-widget-container {
+        padding: 0px !important;
+    } */
+
+    .circle-details {
+        width: 24px;
+        height: 24px;
+    }
+
+    .circular-slider .inner-circle {
+        width: 14px;
+        height: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 374px) { 
+
+    .circular-slider-custom .container svg {
+        height: 210px;
+        width: 210px;
+    }
+
+    .circle-details {
+        width: 22px;
+        height: 22px;
+    }
+
+    .circular-slider .inner-circle {
+        width: 12px;
+        height: 12px;
+    }
+
+    .circular-slider-shortcode .circular-slider {
+        max-width: 200px;
+        background-size: 160px; 
+    }
+
+    .circle-details .year-details .year {
+        font-size: 14px; 
+    }
+
+}
