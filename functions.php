@@ -1048,7 +1048,7 @@ function translate_plural_text($translated, $count) {
     } elseif (strpos($translated, '%s years') !== false) {
         $translated = str_replace('%s years', '%s ans', $translated);
     }
-    returns $translated;
+    return $translated;
 }
 
 
