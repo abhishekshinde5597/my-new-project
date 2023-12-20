@@ -4,7 +4,7 @@ jQuery(window).on("load scroll", function () {
   if (height >= 60) {
     jQuery('.aquaprox-menu').addClass('sticky-header');
   } else {
-    jQuery('.aquaprox-menu').removeClass('sticky-header');
+    jQuery('.aquaprox-menus').removeClass('sticky-header');
   }
 });
 
